@@ -11,5 +11,8 @@ module.exports = {
       }
     },
   },
+  screens: {
+    'ss' : {'min': '375px', 'max': '640px'}
+  },
   plugins: [],
 }
