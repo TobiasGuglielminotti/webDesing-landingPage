@@ -4,28 +4,28 @@ import { RiCheckboxBlankCircleFill ,RiStarFill} from "react-icons/ri";
 const Hero = () => {
   return (
   <>  
-    <section className="h-[90vh] grid grid-cols-1 md:grid-cols-8">
+    <section className="h-[90vh] grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-8">
       {/* Information */}
-      <section className="md:col-span-5 flex items-center justify-center p-12">
+      <section className=" md:col-span-5 flex items-center justify-center ">
         <article className="flex flex-col gap-9">
-          <h1 className="text-7xl font-bold leading-[8rem] ">Web Desing Impactful Digital{" "}
-            <span className="text-violet-700 ml-4 py-2 px-6 border-8 border-violet-700 relative">
-              Products
-              <RiCheckboxBlankCircleFill className="text-white text-base absolute -left-5 -top-5 p-2 bg-violet-700 rounded-full box-content"/>
-              <RiCheckboxBlankCircleFill className="text-white text-base absolute -right-5 -top-5 p-2 bg-violet-700 rounded-full box-content"/>
-              <RiCheckboxBlankCircleFill className="text-white text-base absolute -right-5 -bottom-5 p-2 bg-violet-700 rounded-full box-content"/>
-              <RiCheckboxBlankCircleFill className="text-white text-base absolute -left-5 -bottom-5 p-2 bg-violet-700 rounded-full box-content"/>
+          <h1 className="pl-8 text-7xl font-bold leading-[8rem] ">Web Desing Impactful Digital{" "} <span className="display-mayor-640px text-violet-700">Product</span>
+            <span className="mobile-display  text-violet-700 ml-4 py-2 px-6 border-8 border-violet-700 relative">
+              Products 
+              <RiCheckboxBlankCircleFill className="mobile-display text-white text-base absolute -left-5 -top-5 p-2 bg-violet-700 rounded-full box-content"/>
+              <RiCheckboxBlankCircleFill className="mobile-display text-white text-base absolute -right-5 -top-5 p-2 bg-violet-700 rounded-full box-content"/>
+              <RiCheckboxBlankCircleFill className="mobile-display text-white text-base absolute -right-5 -bottom-5 p-2 bg-violet-700 rounded-full box-content"/>
+              <RiCheckboxBlankCircleFill className="mobile-display text-white text-base absolute -left-5 -bottom-5 p-2 bg-violet-700 rounded-full box-content"/>
             </span>
           </h1>
-          <p className="text-gray-500 text-2xl ">Help find solutions with intitutive and in accordance with client business goals. We provide high-quality services.</p>
-          <div>
-            <button className='bg-violet-700 text-white  py-2 px-8 rounded-xl text-xl'>Contact us</button>
+          <p className="pl-8 text-gray-500 text-2xl ">Help find solutions with intitutive and in accordance with client business goals. We provide high-quality services.</p>
+          <div className="menor-640px-p-l">
+            <button className=' bg-violet-700 text-white  py-2 px-8 rounded-xl text-xl'>Contact us</button>
           </div>
         </article>
       </section>
       {/* Image */}
-      <section className="md:col-span-3 flex items-center justify-center flex-col relative">
-          <img src="hero.png" alt="Joven sonrriendo haciendo señales de okey" className="w-[450px] h-[450px] object-cover -mt-28 ml-3"/>
+      <section className="ajuste-640px section-img-640px md:col-span-3 flex items-center justify-center flex-col relative">
+          <img src="hero.png" alt="Joven sonrriendo haciendo señales de okey" className="img-640px w-auto h-[370px] object-cover -mt-28 ml-3"/>
           <article className="bg-white flex flex-col justify-center gap-1 w-[250px] mx-auto rounded-xl shadow-xl p-4">
             <div className="flex items center">
               <img src="https://img.freepik.com/foto-gratis/alegre-mujer-mediana-edad-cabello-rizado_1262-20859.jpg?w=740&t=st=1675293371~exp=1675293971~hmac=27510f9ab378c11b6b67e24f0b1344a1a184437fe7d192620183d0bb26b3aec2"
@@ -42,7 +42,7 @@ const Hero = () => {
               <RiStarFill className="text-violet-700"/> <p className="text-gray-500 text-lg ">5.0 (3.1k Reviews)</p>
             </article>
           </article>
-        <div className='absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2 w-[380px] h-[380px] text-purple-100 border-[10px] border-violet-700 rounded-full -z-10'></div>
+        <div className='mobile-display absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2 w-[380px] h-[380px] text-purple-100 border-[10px] border-violet-700 rounded-full -z-10'></div>
       </section> 
     </section>
     {/* Logos

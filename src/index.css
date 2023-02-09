@@ -1,3 +1,25 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@media (min-width: 320px) and (max-width:640px) {
+    .mobile-display{
+        display: none;
+    }
+    .menor-640px-p-l{
+        padding-left: 32px;
+    }
+    .section-img-640px{
+        margin-top: 14px;
+    }
+    .img-640px{
+        height: 305px;
+        margin: 17px 19px;
+    }
+}
+
+@media (min-width:640px) {
+    .display-mayor-640px{
+        display: none;
+    }
+}
