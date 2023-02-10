@@ -19,13 +19,13 @@ const Hero = () => {
           </h1>
           <p className="pl-8 text-gray-500 text-2xl ">Help find solutions with intitutive and in accordance with client business goals. We provide high-quality services.</p>
           <div className="menor-640px-p-l">
-            <button className=' bg-violet-700 text-white  py-2 px-8 rounded-xl text-xl'>Contact us</button>
+            <button className=' bg-violet-700 text-white sm:ml-6 py-2 px-8 rounded-xl text-xl'>Contact us</button>
           </div>
         </article>
       </section>
       {/* Image */}
-      <section className="ajuste-640px section-img-640px md:col-span-3 flex items-center justify-center flex-col relative">
-          <img src="hero.png" alt="Joven sonrriendo haciendo señales de okey" className="img-640px w-auto h-[370px] object-cover -mt-28 ml-3"/>
+      <section className="ajuste-640px section-img-640px  md:col-span-3 flex items-center justify-center flex-col relative">
+          <img src="hero.png" alt="Joven sonrriendo haciendo señales de okey" className="img-640px sm:mt-1 w-auto h-[370px] object-cover -mt-28 ml-3"/>
           <article className="bg-white flex flex-col justify-center gap-1 w-[250px] mx-auto rounded-xl shadow-xl p-4">
             <div className="flex items center">
               <img src="https://img.freepik.com/foto-gratis/alegre-mujer-mediana-edad-cabello-rizado_1262-20859.jpg?w=740&t=st=1675293371~exp=1675293971~hmac=27510f9ab378c11b6b67e24f0b1344a1a184437fe7d192620183d0bb26b3aec2"
