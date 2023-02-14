@@ -3,6 +3,11 @@
 @tailwind utilities;
 
 @media (min-width: 320px) and (max-width:640px) {
+    /*COMIENZO DE HERO*/
+    .h1-max-640px{
+        font-size: 59px;
+        line-height: 99px;
+    }
     .mobile-display{
         display: none;
     }
@@ -16,7 +21,19 @@
         height: 305px;
         margin: 17px 19px;
     }
+
+    /* COMIENZO DE CLIENTS */
+    /* .mt-max-640px-clients{
+        margin-top: 749px;
+    } */
 }
+
+/* @media (min-width:345px){
+    .mt-max-640px-clients{
+        margin-top: 750px;
+    }
+    
+} */
 
 @media (min-width:640px) {
     .display-mayor-640px{
