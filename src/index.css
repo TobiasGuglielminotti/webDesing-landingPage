@@ -23,9 +23,10 @@
     }
 
     /* COMIENZO DE CLIENTS */
-    /* .mt-max-640px-clients{
-        margin-top: 749px;
-    } */
+     .max-w-640px{
+        width: 117px;
+    }
+        
 }
 
 /* @media (min-width:345px){

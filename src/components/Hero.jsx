@@ -6,9 +6,9 @@ const Hero = () => {
   <>  
     <section className=" grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-8">
       {/* Information */}
-      <section className=" bg-red-500 md:col-span-5 flex items-center justify-center ">
+      <section className=" md:col-span-5 flex items-center justify-center ">
         <article className="flex flex-col gap-9">
-          <h1 className="h1-max-640px pl-8 text-7xl font-bold leading-[8rem] ">Web Desing Impactful Digital{" "} <span className="display-mayor-640px text-violet-700">Product</span>
+          <h1 className="h1-max-640px pl-8 text-7xl font-bold leading-[8rem]">Web Desing Impactful Digital{" "} <span className="display-mayor-640px text-violet-700">Product</span>
             <span className="mobile-display  text-violet-700 ml-4 py-2 px-6 border-8 border-violet-700 relative">
               Products 
               <RiCheckboxBlankCircleFill className="mobile-display text-white text-base absolute -left-5 -top-5 p-2 bg-violet-700 rounded-full box-content"/>
@@ -25,7 +25,7 @@ const Hero = () => {
         </article>
       </section>
       {/* Image */}
-      <section className="bg-red-300 ajuste-640px section-img-640px  md:col-span-3 flex items-center justify-center flex-col relative">
+      <section className="ajuste-640px section-img-640px  md:col-span-3 flex items-center justify-center flex-col relative">
           <img src="hero.png" alt="Joven sonrriendo haciendo señales de okey" className="img-640px sm:mt-1 w-auto h-[370px] object-cover -mt-28 ml-3"/>
           <article className="bg-white flex flex-col justify-center gap-1 w-[250px] mx-auto rounded-xl shadow-xl p-4">
             <div className="flex items center">
