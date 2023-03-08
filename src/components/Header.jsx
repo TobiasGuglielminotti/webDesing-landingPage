@@ -30,4 +30,4 @@ const Header = () => {
 //HEADER{*flex items-center justify-between xl:justify-start w-full py-4 px-8 h-[10vh] z-50*}
 // MENU p-20
 // NAV
-export default Header
+export default Header;
