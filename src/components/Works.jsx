@@ -2,7 +2,7 @@ import React from 'react'
 
 const Works = () => {
   return (
-    <section className="p-8 max-[639px]:flex max-[639px]:flex-col ">
+    <section className="p-8 max-[639px]:flex max-[639px]:flex-col xl:p-20 ">
         <h2 className=": text-[40px] font-black">We create world-class digital products</h2>
         <p className="text-gray-500">By information about desing the world to the best instructors, heat helping by information</p>
         <article className="flex flex-col md:grid grid-cols-2 gap-5 mt-8">
