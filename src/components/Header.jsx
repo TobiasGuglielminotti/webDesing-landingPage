@@ -13,7 +13,6 @@ const Header = () => {
                 <RiCheckboxBlankCircleLine className="absolute -left-3 bottom-1 bg-violet-700 -z-10 rounded-2xl "/>
             </a>
         </section>
-        
         <nav className={`fixed bg-white w-[60%] md:w-[70%]  xl:w-[full] h-full ${showMenu ? "left-0" : "-left-full"} top-0 lg:static 
         flex-1 flex flex-col lg:flex-row items-center justify-center gap-10 p-4 transition-all duration-500 z-50` }>
             <a href="" className="">Home</a>
