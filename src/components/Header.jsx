@@ -15,10 +15,10 @@ const Header = () => {
         </section>
         <nav className={`fixed bg-white w-[60%] md:w-[70%]  xl:w-[full] h-full ${showMenu ? "left-0" : "-left-full"} top-0 lg:static 
         flex-1 flex flex-col lg:flex-row items-center justify-center gap-10 p-4 transition-all duration-500 z-50` }>
-            <a href="" className="">Home</a>
-            <a href="" className="">About Us</a>
-            <a href="" className="">Services</a>
-            <a href="" className="">Products</a>
+            <a href="#home" className="">Home</a>
+            <a href="#clients" className="">About Us</a>
+            <a href="#works" className="">Products</a>
+            <a href="#servicies" className="">Services</a>
         </nav>
         <button onClick={() => setShowMenu(!showMenu)} className="sm:flex justify-end items-center lg:hidden text-2xl p- ">
           {showMenu ? <RiCloseLine/> : <RiMenu3Fill/>}

@@ -4,7 +4,7 @@ import { RiCheckboxBlankCircleFill ,RiStarFill} from "react-icons/ri";
 const Hero = () => {
   return (
   <>  
-    <section className=" grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-8">
+    <section id="home" className=" grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-8">
       {/* Information */}
       <section className=" md:col-span-5 flex items-center justify-center ">
         <article className="flex flex-col gap-9">
@@ -46,15 +46,6 @@ const Hero = () => {
         <div className='mobile-display absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2 w-[380px] h-[380px] text-purple-100 border-[10px] border-violet-700 rounded-full -z-10'></div>
       </section> 
     </section>
-    {/* Logos
-    <article className="flex item-center justify-center">
-      <img src="figma-logo.png" alt="logo de figma" className="w-20 h-20 object-cover 
-      rounded-full border-l-8 border-gray-600 " />
-      <img src="adobe-logo.png" alt="logo de abode" className="w-20 h-20 object-cover 
-      rounded-full border-l-8 border-gray-600 " />
-      <img src="sketch-logo.png" alt="" className="w-20 h-20 object-cover 
-      rounded-full border-l-8 border-gray-600 " />
-    </article> */}
   </>
   )
 }
